@@ -18,7 +18,7 @@
     "MailHost": "smtp.sendgrid.net", // @SECRET
     "MailPort": 587,
     "MailUserName": "apikey", // @SECRET
-    "MailPassword": "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", // @SECRET
+    "MailPassword": "SG.Qy2-rmXYTmavb_yW8FB9bw1.H3nkcWBXay61-pM25glCLroD5p-ovq73o7GF7cMSoTY", // @SECRET
     "EmailFromName": "Zee5 support",
     "EmailFromAddress": "noreply@axtest.net",
     "SupportEmail": "support.in@zee5.com",
