@@ -1,0 +1,37 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=z5funcstorcb;AccountKey=Lm5dggujtJ5nRaYRQxm+pAurnV4Lc5nvzbpIzcGQvBvb78kJet7auxfyYxVNkWuJYFoFMS99Grhj7I1So+EZTg==;EndpointSuffix=core.windows.net", // @SECRET
+    //"WatchHistoryDatabaseConnection": "Server=tcp:z5db.database.windows.net,1433;Initial Catalog=z5-user-integration;Persist Security Info=False;User ID=z5-user-integration;Password=67VMOSc2Od7Bu1C;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "WatchHistoryDatabaseConnection": "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=Z5UserService;Integrated Security=True",
+    "ElasticStackUrl": "https://asdp-logs.axtest.net:443/es/", // @SECRET
+    "ElasticStackUsername": "axinom", // @SECRET
+    "ElasticStackPassword": "MZmKTi25yyFnm#J", // @SECRET
+    "LogProjectName": "Z5",
+    "LogProducerName": "MS",
+    "LogComponentName": "serverlessazure",
+    "LogEnvironmentName": "DEV",
+    "ElasticStackMinLogLevel": "INFORMATION",
+
+    // Notification options
+    "SmsHost": "https://b2bapi.zee5.com/sendsms.php",
+    "MailHost": "smtp.sendgrid.net", // @SECRET
+    "MailPort": 587,
+    "MailUserName": "apikey", // @SECRET
+    "MailPassword": "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", // @SECRET
+    "EmailFromName": "Zee5 support",
+    "EmailFromAddress": "noreply@axtest.net",
+    "SupportEmail": "support.in@zee5.com",
+    "FrontEndUrl": "http://useraction.z5.com",
+    "NotificationQueueConnection": "DefaultEndpointsProtocol=https;AccountName=z5funcstorcb;AccountKey=Lm5dggujtJ5nRaYRQxm+pAurnV4Lc5nvzbpIzcGQvBvb78kJet7auxfyYxVNkWuJYFoFMS99Grhj7I1So+EZTg==;EndpointSuffix=core.windows.net",
+    "NotificationStorageConnection": "DefaultEndpointsProtocol=https;AccountName=z5funcstorcb;AccountKey=Lm5dggujtJ5nRaYRQxm+pAurnV4Lc5nvzbpIzcGQvBvb78kJet7auxfyYxVNkWuJYFoFMS99Grhj7I1So+EZTg==;EndpointSuffix=core.windows.net",
+
+    // Reminders parameters
+    //"UserDatabaseConnection": "Server=tcp:z5db.database.windows.net,1433;Initial Catalog=z5-user-integration;Persist Security Info=False;User ID=z5-user-integration;Password=67VMOSc2Od7Bu1C;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    //"UserDatabaseConnection": "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=Z5UserService;Integrated Security=True",
+    "UserDatabaseConnection": "Server=tcp:z5db.database.windows.net,1433;Initial Catalog=z5-user-integration;Persist Security Info=False;User ID=z5-user-integration;Password=67VMOSc2Od7Bu1C;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "CatalogApiUrl": "http://z5-ms-catalog-integration.axtest.net",
+    //"CatalogApiUrl": "http://z5-ms-catalog-cb.axtest.net",
+    "EpgRemindersSchedule": "0 * * * * *"
+  }
+}

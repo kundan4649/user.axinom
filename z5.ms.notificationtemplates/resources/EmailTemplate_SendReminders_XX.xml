@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailTemplate>
+  <Type>Epg Reminder E-mail template</Type><!-- Used for logging -->
+  <Subject>Programmi meeldetuletus</Subject>
+  <Body>
+    <![CDATA[ 
+       Tere, [PLACEHOLDER_EpgTitle] kavatseb alustada [PLACEHOLDER_RemainingMinutes] minutiga [PLACEHOLDER_ChannelName]. kohta. Ära unusta häälestada!
+       <br />
+  ]]>
+  </Body>
+</EmailTemplate>

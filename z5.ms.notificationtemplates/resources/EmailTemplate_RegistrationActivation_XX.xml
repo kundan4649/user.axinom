@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailTemplate>
+  <Type>Register New User E-mail template</Type> <!-- Used for logging -->
+  <Subject>ZEE5 konto kinnitus</Subject>
+  <Body>
+  <![CDATA[ 
+     Täname, et registreerite ZEE5-ga. Piiramatu meelelahutus - nüüd teie keeles.<br />
+     <br />
+     Teie e-posti kinnituskood on:<br />
+     <br />
+     <a href="[PLACEHOLDER_FrontEndUrl]/verify/?code=[PLACEHOLDER_EmailConfirmationKey]">[PLACEHOLDER_EmailConfirmationKey]</a><br />
+     <br />
+     Support at [PLACEHOLDER_SupportEmail]
+  ]]></Body>
+</EmailTemplate>

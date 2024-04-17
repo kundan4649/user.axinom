@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmsTemplate>
+  <Type>Add mobile Sms template</Type><!-- Used for logging -->
+  <Body>
+  <![CDATA[ 
+    You have successfully updated your mobile number for your ZEE5 Account. Your mobile verification code is: [PLACEHOLDER_MobileConfirmationKey]
+  ]]></Body>
+</SmsTemplate>

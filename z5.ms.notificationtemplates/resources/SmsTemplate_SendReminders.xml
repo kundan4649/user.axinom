@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmsTemplate>
+  <Type>Epg Reminder Sms template</Type><!-- Used for logging -->
+  <Body>
+    <![CDATA[ 
+      Hi, [PLACEHOLDER_EpgTitle] is about to start in [PLACEHOLDER_RemainingMinutes] minutes on [PLACEHOLDER_ChannelName]. Don't forget to tune in!
+  ]]>
+  </Body>
+</SmsTemplate>

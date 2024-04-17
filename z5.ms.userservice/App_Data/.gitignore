@@ -1,0 +1,14 @@
+assets/*
+reports/*
+secure/*
+tmp/*
+sql/*
+log/*
+*.log
+
+!assets/empty
+!reports/empty
+!secure/empty
+!tmp/empty
+!sql/empty
+!log/empty

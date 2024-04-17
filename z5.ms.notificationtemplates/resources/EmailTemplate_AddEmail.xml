@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailTemplate>
+  <Type>Add E-mail template</Type> <!-- Used for logging -->
+  <Subject>Verify your email address on ZEE5</Subject>
+  <Body>
+  <![CDATA[ 
+     Hi,<br /><br />
+     You have successfully updated your email address for your ZEE5 Account <br /><br />
+     Please click here to confirm your email:<br /><br />
+     <a href="[PLACEHOLDER_FrontEndUrl]/verify/?code=[PLACEHOLDER_EmailConfirmationKey]">[PLACEHOLDER_EmailConfirmationKey]</a><br /><br />
+  ]]></Body>
+</EmailTemplate>

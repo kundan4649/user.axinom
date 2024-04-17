@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=z5funcstorcb;AccountKey=Lm5dggujtJ5nRaYRQxm+pAurnV4Lc5nvzbpIzcGQvBvb78kJet7auxfyYxVNkWuJYFoFMS99Grhj7I1So+EZTg==;EndpointSuffix=core.windows.net", // @SECRET
+
+    //Elastic log options
+    "ElasticStackUrl": "https://asdp-logs.axtest.net:443/es/", // @SECRET
+    "ElasticStackUsername": "axinom", // @SECRET
+    "ElasticStackPassword": "MZmKTi25yyFnm#J", // @SECRET
+    "LogProjectName": "Z5",
+    "LogProducerName": "MS",
+    "LogComponentName": "serverlessazure",
+    "LogEnvironmentName": "DEV",
+    "ElasticStackMinLogLevel": "INFORMATION",
+    // sending email notificatin to b2b api
+    "b2bApiforNotification": "https://stagingb2bapi.zee5.com",
+    // Notification options
+    "SmsHost": "https://b2bapi.zee5.com/sendsms.php", // @SECRET
+    "MailHost": "smtp.sendgrid.net", // @SECRET
+    "MailPort": 587,
+    "MailUserName": "apikey", // @SECRET
+    "MailPassword": "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", // @SECRET
+    "EmailFromName": "Zee5 support",
+    "EmailFromAddress": "noreply@axtest.net",
+    "SupportEmail": "support.in@zee5.com",
+    "FrontEndUrl": "http://useraction.z5.com",
+    "NotificationStorageConnection": "DefaultEndpointsProtocol=https;AccountName=z5funcstorcb;AccountKey=Lm5dggujtJ5nRaYRQxm+pAurnV4Lc5nvzbpIzcGQvBvb78kJet7auxfyYxVNkWuJYFoFMS99Grhj7I1So+EZTg==;EndpointSuffix=core.windows.net" // @SECRET
+  }
+}

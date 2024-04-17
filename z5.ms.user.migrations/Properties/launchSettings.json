@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "z5.ms.user.migrations": {
+      "commandName": "Project",
+      "commandLineArgs": "-c database -a \"../../../../z5.ms.userservice/appsettings.json\" -m \"../../../../Resources/Config-Publish/z5.ms.userservice/migrationsettings.json\""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailTemplate>
+  <Type>Add mobile E-mail template</Type> <!-- Used for logging -->
+  <Subject>Mobile number updated on ZEE5</Subject>
+  <Body>
+  <![CDATA[ 
+     Hi,<br /><br />
+     You have successfully updated your mobile number with [PLACEHOLDER_NewMobile] for your ZEE5 Account. <br /><br />
+     If this wasn't you, please contact support at [PLACEHOLDER_SupportEmail] and update your password.<br /><br />
+  ]]></Body>
+</EmailTemplate>

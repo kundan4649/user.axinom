@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\CountryOptions.xml" />
+    <None Remove="resources\EmailTemplate_AddEmail.xml" />
+    <None Remove="resources\EmailTemplate_AddEmail_XX.xml" />
+    <None Remove="resources\EmailTemplate_AddMobile.xml" />
+    <None Remove="resources\EmailTemplate_AddMobile_XX.xml" />
+    <None Remove="resources\EmailTemplate_PasswordRecreationConfirmation.xml" />
+    <None Remove="resources\EmailTemplate_PasswordReset.xml" />
+    <None Remove="resources\EmailTemplate_PasswordReset_XX.xml" />
+    <None Remove="resources\EmailTemplate_RegistrationActivation.xml" />
+    <None Remove="resources\EmailTemplate_RegistrationActivation_XX.xml" />
+    <None Remove="resources\EmailTemplate_SendReminders.xml" />
+    <None Remove="resources\EmailTemplate_SendReminders_XX.xml" />
+    <None Remove="resources\SmsTemplate_AddEmail.xml" />
+    <None Remove="resources\SmsTemplate_AddEmail_XX.xml" />
+    <None Remove="resources\SmsTemplate_AddMobile.xml" />
+    <None Remove="resources\SmsTemplate_AddMobile_XX.xml" />
+    <None Remove="resources\SmsTemplate_PasswordRecreationConfirmation.xml" />
+    <None Remove="resources\SmsTemplate_PasswordReset.xml" />
+    <None Remove="resources\SmsTemplate_PasswordReset_XX.xml" />
+    <None Remove="resources\SmsTemplate_RegistrationActivation.xml" />
+    <None Remove="resources\SmsTemplate_RegistrationActivation_in.xml" />
+    <None Remove="resources\SmsTemplate_RegistrationActivation_XX.xml" />
+    <None Remove="resources\SmsTemplate_SendReminders.xml" />
+    <None Remove="resources\SmsTemplate_SendReminders_XX.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="resources\CountryOptions.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_AddMobile_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_AddMobile.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_AddEmail_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_AddEmail.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_PasswordRecreationConfirmation.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_PasswordReset_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_PasswordReset.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_RegistrationActivation_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_RegistrationActivation.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\EmailTemplate_SendReminders.xml" />
+    <EmbeddedResource Include="resources\EmailTemplate_SendReminders_XX.xml" />
+    <EmbeddedResource Include="resources\SmsTemplate_AddEmail_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_PasswordRecreationConfirmation.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_AddEmail.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_PasswordReset_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_PasswordReset.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_AddMobile.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_RegistrationActivation_IN.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_RegistrationActivation_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_RegistrationActivation.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\SmsTemplate_SendReminders_XX.xml" />
+    <EmbeddedResource Include="resources\SmsTemplate_SendReminders.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="resources\SmsTemplate_AddMobile_XX.xml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

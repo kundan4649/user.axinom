@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmsTemplate>
+  <Type>Add E-mail Sms template</Type><!-- Used for logging -->
+  <Body>
+  <![CDATA[ 
+     You have updated your email id to [PLACEHOLDER_NewEmail] in ZEE5 Account. If this wasn't you, please mail us on [PLACEHOLDER_SupportEmail] and update your password.
+  ]]></Body>
+</SmsTemplate>

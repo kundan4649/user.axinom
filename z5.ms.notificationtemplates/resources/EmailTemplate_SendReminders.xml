@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailTemplate>
+  <Type>Epg Reminder E-mail template</Type><!-- Used for logging -->
+  <Subject>Program Reminder</Subject>
+  <Body>
+    <![CDATA[ 
+       Hi, [PLACEHOLDER_EpgTitle] is about to start in [PLACEHOLDER_RemainingMinutes] minutes on [PLACEHOLDER_ChannelName]. Don't forget to tune in!
+       <br />
+  ]]>
+  </Body>
+</EmailTemplate>

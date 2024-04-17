@@ -1,0 +1,3 @@
+[submodule "z5.ms.common"]
+	path = z5.ms.common
+	url = https://axinom_zee5_development@bitbucket.org/zee5in/ms.common.axinom.git

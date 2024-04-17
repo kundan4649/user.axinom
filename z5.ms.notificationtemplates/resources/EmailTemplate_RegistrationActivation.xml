@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailTemplate>
+  <Type>Register New User E-mail template</Type>
+  <!-- Used for logging -->
+  <Subject>Verify your email address on ZEE5</Subject>
+  <Body>
+    <![CDATA[ 
+  <body style="margin:0;padding: 10px;">
+    <table style="max-width:600px; background:#fff;margin: auto;" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td align="left" valign="top"><a href="http://bit.ly/2FynsOw" target="_blank"><img src="https://useraction.zee5.com/userimages/zeelogo.png" style="width:88px;height:87px;display:block;border:0;padding-top: 15px;" alt="ZEE5Logo" title="ZEE5Logo"  /></a></td>
+      </tr>
+      <tr>
+        <td align="left" style="font-family:Arial, Helvetica, sans-serif;">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+            	<td>&nbsp;</td>
+            </tr>
+
+          
+            <tr>
+               <td>
+                 <h2 style="font-size: 16px">Hi,</h2>
+                  <h3 style="font-size: 16px">Welcome to ZEE5!<br><br>
+                    You're just one step away from setting up your account.<br>
+                    </h3>
+                    <p  style="font-size: 14px;">Please click here to confirm your email.</p>
+                   
+                   <br>
+              <!-- this is dummy link -->
+                   <a href="[PLACEHOLDER_FrontEndUrl]/verify/?code=[PLACEHOLDER_EmailConfirmationKey]" target="_blank" style="border-radius:5px;border:2px;padding-right:40px;padding-left:40px;padding-top:13px;padding-bottom:13px; background-color:#bc0069; font-size: 15px;color:#fff; text-decoration:none;" >   Verify Email </a>
+
+                 </td> 
+            </tr>  
+
+
+             <tr>
+              <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+              <td>
+                <p style="font-size: 14px">If incase the above button, doesn't work, please copy & paste the below link in your browser, <br> 
+                  <!-- this is dummy link -->
+                  <span > <a href="[PLACEHOLDER_FrontEndUrl]/verify?code=[PLACEHOLDER_EmailConfirmationKey]" target="_blank" style="color:#bc0069; font-size: 14px;text-decoration:none;">[PLACEHOLDER_FrontEndUrl]/verify?code=[PLACEHOLDER_EmailConfirmationKey] </a></span> <br> </p>
+              </td>  
+            </tr> 
+
+
+            <tr>
+              <td>
+                <p style="font-size: 12px;">You are getting this email as a registered user of ZEE5.<br>This email is auto-generated so please do not reply to this email as we will be unable to respond from this email address. Please connect with us on <span> <a href="mailto:[PLACEHOLDER_SupportEmail]" target="_blank" style="color:#bc0069; font-size: 12px;text-decoration:none;">[PLACEHOLDER_SupportEmail]</a></span> for any concerns.<br><br>
+                This email address will be used to share periodic updates regarding new TV Shows, Movies, Originals that are available on ZEE5.</p>
+              </td>  
+            </tr> 
+
+            <tr>
+              <td width="100%" height="1px" style="background-color:#000 ">
+              </td>  
+            </tr>  
+
+            <tr>
+              <td>
+                <p style="color:#808080;font-size: 12px;">&copy; 2018 ZEE5</p>
+              </td>  
+            </tr>  
+
+            <tr>
+              <td align="center" style="height:45px;" valign="middle">
+              </td>
+            </tr>
+
+            <tr>
+            	<td>&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+  ]]>
+  </Body>
+</EmailTemplate>

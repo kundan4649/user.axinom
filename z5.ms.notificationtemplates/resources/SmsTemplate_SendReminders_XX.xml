@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmsTemplate>
+  <Type>Epg Reminder Sms template</Type><!-- Used for logging -->
+  <Body>
+    <![CDATA[ 
+      Tere, [PLACEHOLDER_EpgTitle] kavatseb alustada [PLACEHOLDER_RemainingMinutes] minutiga [PLACEHOLDER_ChannelName]. kohta. Ära unusta häälestada!
+  ]]>
+  </Body>
+</SmsTemplate>

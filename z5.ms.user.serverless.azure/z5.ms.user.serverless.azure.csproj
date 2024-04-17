@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>z5.ms.user.serverless.azure</RootNamespace>
+    <AzureFunctionsVersion>v2</AzureFunctionsVersion>
+    <Version>1.0.0.0</Version>
+    <Authors>gur@axinom.com</Authors>
+    <Description>Media Server Azure Functions</Description>
+    <Copyright>Axinom 2019</Copyright>
+    <AssemblyName>z5.ms.user.serverless</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper.FastCrud" Version="2.4.1" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.19" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.0-beta8" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.ServiceBus" Version="3.0.0-beta8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\z5.ms\z5.ms.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  
+</Project>

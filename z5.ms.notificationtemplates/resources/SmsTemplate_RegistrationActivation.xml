@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmsTemplate>
+  <Type>Register New User Sms template</Type><!-- Used for logging -->
+  <Body>
+  <![CDATA[ 
+    Thank you for registering with ZEE5. Unlimited entertainment - now in your country. Your Phone number confirmation code is : [PLACEHOLDER_MobileConfirmationKey]
+  ]]></Body>
+</SmsTemplate>

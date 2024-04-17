@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <Copyright>Axinom 2017</Copyright>
+    <Authors>gurba@axinom.com</Authors>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>z5.ms.userservice</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <DebugType>portable</DebugType>
+    <PackageId>z5.ms.userservice</PackageId>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+    <Description>Media Server User Service API</Description>
+    <RootNamespace>z5.ms.userservice</RootNamespace>
+    <UserSecretsId>fcc7f215-6d6b-4637-967d-d8b90b536e96</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\EmailTemplate_ChangeEmail.xml" />
+    <None Remove="resources\EmailTemplate_PasswordReset.xml" />
+    <None Remove="resources\EmailTemplate_RegistrationActivation.xml" />
+    <None Remove="resources\SmsTemplate_PasswordReset.xml" />
+    <None Remove="resources\SmsTemplate_RegistrationActivation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="jose-jwt" Version="2.4.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Instana.Tracing.Core.Rewriter.Linux" Version="1.209.1" />
+    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+    <PackageReference Include="TwitterOAuth" Version="0.50.25.1928" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Swashbuckle.AspNetCore.Cli" Version="3.0.0-beta1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\z5.ms\z5.ms.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App_Data\**\*;Dockerfile;.dockerignore;init.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="resources\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="resources\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="resources\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App_Data\geoip\GeoIP2-City.mmdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

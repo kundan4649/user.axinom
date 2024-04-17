@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmsTemplate>
+  <Type>Register New User Sms template</Type><!-- Used for logging -->
+  <Body>
+  <![CDATA[ 
+    Täname, et registreerite ZEE5-ga. Piiramatu meelelahutus - nüüd teie keeles. Telefoninumbri kinnituskood on: [PLACEHOLDER_MobileConfirmationKey]
+  ]]></Body>
+</SmsTemplate>

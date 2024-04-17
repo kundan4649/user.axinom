@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /tmp/z5-prod-userservice
+hooks:
+  AfterInstall:
+    - location: scripts/deployment.sh
+      timeout: 900
